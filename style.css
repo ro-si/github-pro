@@ -1,0 +1,254 @@
+*{
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #025159;
+}
+
+
+/* Styles pour les écrans de petite taille */
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .button {
+        margin-left: 0;
+    }
+
+    .one h2, .one h3 {
+        margin-left: 0;
+    }
+
+    .two p {
+        font-size: 1em; /* Ajustez la taille de la police pour une meilleure lisibilité sur les petits écrans */
+        padding-left: 0;
+    }
+
+    .two img {
+        padding-right: 0;
+        margin-top: 0;
+    }
+}
+
+nav{
+    display: flex;
+   justify-content: space-around;
+   width: 100%;
+   background-color: #025159;
+  color: white;
+padding: 1em 0px;
+
+}
+nav h1{
+    background: linear-gradient(to right, #7ab8bf 01%, white 100% );
+    background-color: white;
+    color: transparent;
+    background-clip: text;
+   font-family: monospace;
+      
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    text-decoration: none;
+    
+}
+ul{
+    list-style: none;
+
+}
+li a {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+li a:hover{
+    color: #a67458;
+    text-decoration: solid;
+    
+}
+
+.button{
+   background-color: #a67458;
+   padding-left: 10px;
+   margin-left: 2em;
+   width: 70px;
+   color: white;
+   padding-top: 5px ;
+    padding-bottom:5px ;
+}
+.button a {
+    text-decoration: none;
+}
+.button:hover{
+    background-color: #7ab8bf; /* Green */
+    color: #a67458;
+    border: 2px solid #7ab8bf;
+    border-radius: 5px;
+}
+
+.one{
+    
+    background-color: #025159;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    
+    
+}
+.one h3 ,h2{
+    margin-left: 20px;
+}
+
+
+.two p{
+    font-size: 0,2em;
+    padding-left: 20px;
+   color: rgb(251, 248, 248);
+   font-family: monospace;
+}
+
+.two img{
+    padding-right: 100px;
+    margin-top: -102px;   
+
+}
+
+@keyframes changement-couleur {
+    0% {
+      color: red;
+    }
+    50% {
+      color: #7ab8bf; /* Vous pouvez ajuster cette couleur intermédiaire */
+    }
+    100% {
+      color: #a67458;
+    }
+  }
+    .texte-rouge {
+        color: #a67458;
+        animation: changement-couleur 2s infinite alternate; /* Animation de changement de couleur sur 2 secondes */
+      }
+
+
+      
+.container{
+    border: none;
+    background-color:#7ab8bf ;
+    /*margin-bottom: 0.8rem;*/
+    /*padding-top:0.3rem ;*/
+    height: 70vh;
+
+}
+ 
+.container h1{
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+}
+
+.containe{
+   
+}
+
+ .skill{
+    
+   background: #0333;
+    border-radius: 15px;
+   width: 25%;
+   padding-left: 4px;
+   padding-right: 50px;
+   padding-top: 10px;
+   margin-left: 2rem;
+   
+   
+    
+ }
+ .skill img {
+    
+    margin-left: 2rem;
+ }
+
+ 
+/*.container h1{
+    display: flex;
+    justify-content: center;
+}*/
+ /*.containee{
+    display: flex;
+  
+ 
+}*/
+
+ /*.cont{
+    width: 200px;
+    margin: auto;
+    margin-top: 40px;
+   border-radius: 5px;
+   padding: 20px;
+   
+ }*/
+ /*.contai-ner{
+    width: 200px;
+    margin: auto;
+    margin-top: 40px;
+   border-radius: 5px;
+   padding: 20px;
+   background-color:#0333;
+    opacity: 1,5;
+ }*/
+
+
+ /*.contai{
+    width: 200px;
+    margin: auto;
+    margin-top: 40px;
+   border-radius: 5px;
+   padding: 20px;
+   background-color: black;
+ }*/
+
+ footer{
+    background-color: #025159;
+ }
+
+ 
+ 
+ 
+
+ 
+
+
+
+
+ 
+ 
+ 
+ 
+
+ 
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+

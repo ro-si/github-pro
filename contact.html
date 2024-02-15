@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Koffi amoin rosine</h1>
+            <ul>
+                <li> <a href="apropos.html"> home</a> </li>
+                <li> <a href="portfolio.html">portfolio</a> </li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+      <h1 id="h1">Bonjour veuillez nous contacter</h1>
+    <div class="container" id="container">
+        <form id="contactForm" >
+        
+            <input type="text" placeholder="Nom" id="name" name="name" required>
+    
+            <input type="text"  placeholder="Prenom" id="prenom" name="prenom" required>
+            
+            <input type="email"  placeholder="Email" id="email" name="email" required>
+
+            <textarea id="message"  placeholder="message" rows="4" required></textarea>
+
+             <button type="button" onclick="submitForm()">Envoyer</button>
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+
+
+
+    <script>
+
+        document.body.style.background ="#025159"
+        document.getElementById("container").style.backgroundColor = "#7ab8bf";
+        document.getElementById("h1").style.justifyContent= "display"
+
+        document.addEventListener('DOMContentLoaded', function () {
+    // Sélectionnez l'élément avec l'ID "conteneur"
+    var conteneur = document.getElementById("h1");
+
+    // Appliquez la propriété "display: flex;" à l'élément
+    conteneur.style.display = "flex";
+    conteneur.style.justifyContent = "center"; // Alignement horizontal au centre
+    conteneur.style.alignItems = "center"; // Alignement vertical au centre
+    
+});
+    </script>
+</body>
+</html>
